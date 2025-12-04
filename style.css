@@ -60,6 +60,17 @@ body {
     object-fit: cover;
     border: 6px solid rgba(255, 255, 255, 0.12)
 }
+.avatar1 {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center;  /* shows full face + hair */
+    border: 6px solid rgba(255, 255, 255, 0.12);
+    display: block;
+    margin: 0 auto;
+}
+
 
 .name {
     margin: 12px 0 4px;
