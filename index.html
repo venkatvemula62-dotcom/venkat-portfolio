@@ -7,7 +7,9 @@
   <title>Venkatesh Vemula - Portfolio</title>
 
   <!-- Fonts & icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
   <!-- Main CSS -->
@@ -29,7 +31,8 @@
         my portfolio!</p>
 
       <div class="socials">
-        <a href="https://www.linkedin.com/in/vemula-venkat-81aa1035b/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/vemula-venkat-81aa1035b/" title="LinkedIn"><i
+            class="fab fa-linkedin-in"></i></a>
         <a href="https://github.com/venkatvemula62-dotcom" title="Github"><i class="fab fa-github"></i></a>
         <a href="mailto:venkatvemula62@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
       </div>
@@ -61,7 +64,7 @@
 
         <div class="hero-right">
           <!-- decorative avatar -->
-          <img src="avatar.png" alt="avatar" class="avatar1"  />
+          <img src="avatar.png" alt="avatar" class="avatar1" />
         </div>
       </header>
 
@@ -71,42 +74,50 @@
         <p class="muted">I build full-stack web applications with a focus on performance and reliability.</p>
 
         <div class="skill-grid">
+
           <div class="skill">
-            <i class="fa-solid fa-code colored fa-2x"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
+              class="skill-icon">
             <h4>.NET Core & C#</h4>
             <p>Backend development, REST APIs, Entity Framework, LINQ.</p>
           </div>
 
           <div class="skill">
-            <i class="fab fa-angular colored fa-2x"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+              class="skill-icon">
             <h4>Angular</h4>
             <p>SPA development, lazy loading, optimized bindings.</p>
           </div>
 
           <div class="skill">
-            <i class="fab fa-js colored fa-2x"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              class="skill-icon">
             <h4>Frontend</h4>
             <p>HTML5, CSS3, JavaScript, responsive UIs.</p>
           </div>
 
           <div class="skill">
-            <i class="fa-solid fa-server colored fa-2x"></i>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+              class="skill-icon">
             <h4>Databases & Cloud</h4>
             <p>MS SQL, AWS (EC2, S3, RDS), IIS deployments.</p>
           </div>
 
           <div class="skill">
-            <i class="fa-solid fa-gears colored fa-2x"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" class="skill-icon">
             <h4>DevOps</h4>
-            <p>Azure DevOps CI/CD, Git-based workflows, cost monitoring.</p>
+            <p>Azure DevOps CI/CD, Git workflows, cost monitoring.</p>
           </div>
 
           <div class="skill">
-            <i class="fa-solid fa-lock colored fa-2x"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="skill-icon">
             <h4>Security & Patterns</h4>
-            <p>JWT authentication, SOLID, Clean Architecture, TDD concepts.</p>
+            <p>JWT, SOLID, Clean Architecture, TDD concepts.</p>
           </div>
+
         </div>
+
       </section>
 
       <!-- Experience -->
@@ -121,7 +132,8 @@
           <ul>
             <li>Developed and maintained .NET Core applications with SQL Server, improving system speed and
               reliability.</li>
-            <li>Worked closely with product managers, QA, and developers in Agile/SCRUM to deliver features on time.</li>
+            <li>Worked closely with product managers, QA, and developers in Agile/SCRUM to deliver features on time.
+            </li>
             <li>Delivered multiple production-ready modules within sprint deadlines and built RESTful APIs
               with JWT/OAuth2.</li>
             <li>Deployed apps on IIS & AWS EC2, used S3 for static assets and CloudWatch for monitoring.</li>
@@ -162,18 +174,24 @@
         <h2>Contact</h2>
         <p>Email: <a href="mailto:venkatvemula62@gmail.com">venkatvemula62@gmail.com</a> • Phone: +91 7993867901</p>
 
-       
+
 
         <!-- Get In Touch form -->
         <h2 style="text-align:center;margin-top:24px">Get In Touch</h2>
         <form class="contact-form" style="max-width:1000px;margin:18px auto" onsubmit="handleContact(event)">
           <div style="display:flex;gap:12px">
-            <input required type="text" name="name" placeholder="Name" style="flex:1;padding:10px;border-radius:6px;border:1px solid #ddd" />
-            <input required type="email" name="email" placeholder="Email" style="flex:1;padding:10px;border-radius:6px;border:1px solid #ddd" />
+            <input required type="text" name="name" placeholder="Name"
+              style="flex:1;padding:10px;border-radius:6px;border:1px solid #ddd" />
+            <input required type="email" name="email" placeholder="Email"
+              style="flex:1;padding:10px;border-radius:6px;border:1px solid #ddd" />
           </div>
-          <input type="text" name="subject" placeholder="Subject or Topic Title" style="width:100%;margin-top:12px;padding:10px;border-radius:6px;border:1px solid #ddd" />
-          <textarea required name="message" placeholder="Enter your message" rows="8" style="width:100%;margin-top:12px;padding:12px;border-radius:6px;border:1px solid #ddd"></textarea>
-          <button type="submit" style="margin-top:12px;padding:10px 16px;background:#46b77a;color:#fff;border-radius:6px;border:none">Send Now</button>
+          <input type="text" name="subject" placeholder="Subject or Topic Title"
+            style="width:100%;margin-top:12px;padding:10px;border-radius:6px;border:1px solid #ddd" />
+          <textarea required name="message" placeholder="Enter your message" rows="8"
+            style="width:100%;margin-top:12px;padding:12px;border-radius:6px;border:1px solid #ddd"></textarea>
+          <button type="submit"
+            style="margin-top:12px;padding:10px 16px;background:#46b77a;color:#fff;border-radius:6px;border:none">Send
+            Now</button>
         </form>
       </section>
 
